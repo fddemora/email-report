@@ -22,7 +22,7 @@ global with sharing class ScheduleReport {
                 email.setFileAttachments(attach);
 
                 List<String> toAddresses = new List<String>();
-                toAddresses.add('demoraes2019@outlook.com');
+                toAddresses.add('demoraes@test.com');
                 email.setToAddresses(toAddresses);
                 email.setSenderDisplayName('Fellipe from Apex');
 
